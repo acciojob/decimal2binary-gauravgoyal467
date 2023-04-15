@@ -10,12 +10,11 @@ function decimalToBinary(input) {
 		}
 		input=input/2;
 	}
-	let output;
+	let output=0;
 	for (let index = ans.length-1; index >=0; index--) {
-		let num=ans[index]*1e(index);
+		let num=ans[index]*Math.pow(10,index);
 		output=output+num;
 	}
-	
   return output;
  }
 let input=prompt("Enter a number");
