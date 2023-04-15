@@ -17,6 +17,4 @@ function decimalToBinary(input) {
 	}
   return output;
  }
-let input=prompt("Enter a number");
-alert(decimalToBinary(input));
 module.exports = decimalToBinary;
