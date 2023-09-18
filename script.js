@@ -7,6 +7,7 @@ function decimalToBinary(num) {
         bin = bin + rem * i;
         i = i * 10;
     }
+	return bin;
 }
 
 window.decimalToBinary = decimalToBinary;
